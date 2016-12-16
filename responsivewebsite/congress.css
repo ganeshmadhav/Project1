@@ -1,0 +1,397 @@
+#wrapper {
+  padding-left: 250px;
+  /*transition: all 0.4s ease 0s;*/
+}
+table {
+    border-spacing: 0;
+    width: 100%;
+}
+body{
+    font-family: calibri;
+}
+#bio_guide{
+    font-size: 22px;
+}
+.turnblack{
+        text-decoration: none;
+        color: black;
+    }
+    
+.bghover:hover{
+   background-color:#f1f1f1 !important;    
+}
+
+thead{
+    font-weight: bold;
+}
+
+.bghover{
+    background-color:#fff;
+}
+
+#sidebar-wrapper {
+  margin-left: -250px;
+  top: 51px;
+  left: 250px;
+  width: 250px;
+  /*background: #000;*/
+    background: rgba(27, 23, 23, 0.83);
+  position: fixed;
+  height: 100%;
+  overflow-y: auto;
+  z-index: 1000;
+  /*transition: all 0.4s ease 0s;*/
+}
+.shadowbox{
+    box-shadow: 0 0 1em rgba(16, 14, 0, 0.45);
+}
+#wrapper.active {
+  padding-left: 0;
+}
+.star_size{
+    font-size: 20px;
+}
+tr:hover{
+    background-color:#f1f1f1;
+}
+#wrapper.active #sidebar-wrapper {
+  left: 0;
+}
+
+button_def{
+    background: white;
+}
+
+star_fill{
+background-color: darkorange !important;
+}
+
+#page-content-wrapper {
+  width: 100%;
+  padding-top: 70px;
+  /*transition: all 0.4s ease 0s;*/
+}
+
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-nav li {
+  line-height: 40px;
+  /*text-indent: 20px;*/
+}
+
+.sidebar-nav li a {
+  color: #999999;
+  display: block;
+  text-decoration: none;
+  /*padding-left: 60px;*/
+}
+
+.sidebar-nav li a span:before {
+  position: absolute;
+  left: 0;
+  color: #41484c;
+  text-align: center;
+  width: 20px;
+  line-height: 18px;
+}
+
+.photo_center{
+    text-align: center;
+}
+.btn_look{
+    border-radius: 5px;
+    float: left;
+}
+
+.sidebar-nav li a:hover,
+.sidebar-nav li a:active,
+.sidebar-nav li.active {
+  color: #fff;
+  /*background: rgba(255,255,255,0.2);*/
+    background: 000;
+  text-decoration: none;
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+  /*text-decoration: none;*/
+    background: 000;
+    color: #fff;
+}
+
+.sidebar-nav > .sidebar-brand {
+  height: 65px;
+  line-height: 60px;
+  font-size: 18px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+  color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover{
+  color: #fff;
+  background: none;
+}
+
+.sidebar-nav > .sidebar-brand a:active{
+  color: #fff;
+  background: none;
+}
+
+.sidebar-nav > .sidebar-brand a:focus{
+  color: #fff;
+  background: none;
+}
+
+.nav-items{
+    padding-left: 0;
+}
+
+#menu-toggle {
+    text-decoration: none;
+    float: left;
+    color: #000;
+    padding-right: 15px;
+}
+
+.sub_icon{
+    float: left;
+    position: relative;
+    padding-top: 20px;
+    display: inline-block;
+    padding-right: 60px;
+    padding-left: 0px;
+}
+.tab-content{
+    margin-left: 20px;
+    margin-right: 20px;
+    /*background-color: #fff; */
+    border: solid 1px rgba(103, 86, 86, 0.25); 
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.header_subtitle{
+    background-color: #f1f1f1;
+}
+.table_border{
+    border: solid 1px #848383;
+}
+.table_class{
+    table-layout: fixed;
+    overflow: hidden;
+   /* width: 100%;
+    text-overflow: ellipsis;
+*/
+    /*width:100%;*/
+}
+#tabbing_legislator, #tabbing_bills, #tabbing_committee, #tabbing_favorite{
+    margin-top: 50px;
+    margin-left: 5%;
+    align-content: center;
+}
+.logo{
+    height:20px;
+}
+
+.search_box{
+    display: inline-block;
+    max-width: 150px;
+    float: right;
+}
+
+.search_hsjbox{
+    display: inline-block;
+    max-width: 150px;
+    margin-left: 50%;
+}
+
+.stateselector{
+    display: inline-block;
+    float: right;
+    max-width: 150px;
+}
+
+
+.bio_pic{
+    margin-left: 4px;
+    margin-top: 4px;
+    height: 180px;
+    width: 150px;
+}
+
+.button_detail{
+   height: 5vh;
+    width: 8vw;
+    font-size: 100%;
+    color: #fff;
+}
+.trash{
+    border-radius: 4px;
+    width: 40px;
+    height: 30px;
+    background-color: #fff;
+}
+.trash:hover{
+    color: red;
+}
+.glyphicon-trash:hover{
+    color: red;
+}
+.glyphicon-star{
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+.glyphicon-star-empty{
+    font-size: 23px;
+}
+.back_button{
+    margin-left: 1vw;
+    margin-top: 1vh;
+    height: 35px;
+    width: 40px;
+    border: 1px solid #c2c1bf !important;
+}
+
+.colorchange{
+    color: #000;
+}
+#detailsPane{
+    background-color:white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.heading_icon{
+    padding-left: 40% !important; 
+    display: inline-block;
+}
+
+star_on{
+    color: rgba(214, 192, 34, 0.94) !important;
+}
+
+#bio_guide{
+    margin-left: 60px;
+    }
+
+@media (max-width:767px) {
+
+    #wrapper {
+      padding-left: 0;
+    }
+    
+    .heading_icon{
+    padding-left: 1% !important;
+    display: inline-block;
+    }
+
+    #sidebar-wrapper {
+      left: 0;
+    }
+
+    #wrapper.active {
+      position: relative;
+     /* left: 80px;*/
+        left: 60px;
+    }
+        #wrapper.active #sidebar-container,  #wrapper.active .sidebar-nav{
+            width=80px;
+        }
+    #wrapper.active #sidebar-wrapper {
+      left: 250px;
+      width: 60px;
+        overflow: hidden;
+      /*transition: all 0.4s ease 0s;*/
+    }
+
+        #wrapper.active .sidebar-wrapper{
+            width: 80px;
+        }
+
+    #menu-toggle {
+      display: inline-block;
+    }
+        #wrapper.active .widthhandle{
+           /* padding-right: 100px;*/
+            padding-right: 25%;
+            padding-left: 0;
+            width: 100%;
+        }
+
+        .sm_hide {
+            visibility: hidden;
+        }
+        .logo{
+            height:30px;
+        }
+        .mobile_noshow{
+            height: 20px;
+        }
+        .button_detail{
+        font-size: 60%;
+            width: 70px;
+    }
+    
+    
+    
+    .stateselector{
+        width: 50%;
+        margin-left: 10%;
+    }
+    
+    #byState, #lbH, #lbS{
+        width:30%;
+    }
+    
+    
+    
+    .search_box{
+         width: 50%;
+        float: right;
+        
+    }
+    
+    .mobile_noshow{
+        text-decoration: none;
+        color: black;
+    }
+    .no_show{
+        display: none;
+    }
+    .change_view{
+        position: relative;
+    }
+    
+    .cell_border{
+        border: 1px solid #878484;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .tab-content{
+    margin-left: 0px;
+    margin-right: 20px;
+    /*background-color: #fff; */
+    border: solid 1px rgba(103, 86, 86, 0.25); 
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+    .bio_pic{
+        margin-bottom: 16px;
+    }
+    
+    .table_box{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
