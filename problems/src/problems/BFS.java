@@ -43,8 +43,6 @@ public class BFS {
 			}
 			
 		}
-		
-		//computeBFS(v,visited);
 	}
 	
 	public static void main(String args[]){
@@ -56,7 +54,6 @@ public class BFS {
         g.addEdge(2, 0);
         g.addEdge(2, 3);
         g.addEdge(3, 3);
- 
         g.showBFS(2);
 		
 	}
